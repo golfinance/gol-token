@@ -608,7 +608,7 @@ contract BEP20 is Context, IBEP20, Ownable {
         _name = name;
         _symbol = symbol;
         _decimals = 18;
-        _cap = cap; // set maximus supply by Maradona.
+        _cap = cap; // set maximum supply by Maradona.
     }
 
     /**
