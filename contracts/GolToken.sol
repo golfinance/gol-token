@@ -876,7 +876,7 @@ contract BEP20 is Context, IBEP20, Ownable {
 }
 
 // GolToken with Governance - Max Supply 10M of tokens
-contract GolToken is BEP20('Gol Token', 'GOL', 10000000000000000000000000) {
+contract GolToken is BEP20('GolToken', 'GOL', 10000000*1e18) {
     
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
 
